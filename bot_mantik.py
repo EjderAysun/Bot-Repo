@@ -24,7 +24,3 @@ def yazi_tura():
         return "YAZI"
     else:
         return "TURA"
-    
-def rand_number(max_num : int):
-    x = random.randint(0, max_num)
-    return x
