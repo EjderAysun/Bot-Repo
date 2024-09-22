@@ -33,9 +33,4 @@ async def coin(ctx):
 async def password(ctx, pass_length = 10):
     await ctx.send(sifre_olusturucu(pass_length))
 
-@bot.command()
-async def rand_num(ctx, max_num = 10):
-    x = rand_number(max_num)
-    await ctx.send(x)
-
 bot.run(ayarlar["TOKEN"])
